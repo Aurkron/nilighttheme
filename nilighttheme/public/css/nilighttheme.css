@@ -5283,7 +5283,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgb(117, 116, 255);
+  background-color: #b52a31;
 }
 .navbar-default .navbar-brand {
   color: #6c7680;
@@ -10956,7 +10956,7 @@ ul.tree-children {
  */
 body[data-route=""] .navbar-default,
 body[data-route="desktop"] .navbar-default {
-  background-color: rgb(117, 116, 255);
+  background-color: #b52a31;
   border-color: rgba(54, 65, 76, 0.1);
 }
 #page-desktop {
