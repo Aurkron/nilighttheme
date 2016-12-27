@@ -750,7 +750,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 }
 
 .ui-slider-horizontal { height: .8em; }
-.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;background: #7574ff;border: none;border-radius: 10px;}
+.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;background: #b52a31;border: none;border-radius: 10px;}
 .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
 .ui-slider-horizontal .ui-slider-range-min { left: 0; }
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }
@@ -772,7 +772,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
  * http://jqueryui.com/datepicker/
  */
 .ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
-.ui-datepicker .ui-datepicker-header {position:relative;padding:.2em 0;border:0px;font-weight: bold;width: 100%;padding: 4px 0;background-color: #7574ff;color: #808080;}
+.ui-datepicker .ui-datepicker-header {position:relative;padding:.2em 0;border:0px;font-weight: bold;width: 100%;padding: 4px 0;background-color: #b52a31;color: #808080;}
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {position:absolute;top: 2px;width: 1.8em;height: 1.8em;}
 
 .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { /*top: 1px;*/ }
@@ -3458,7 +3458,7 @@ output {
 }
 .form-control:focus {
   outline: 0;
-  border-bottom: 2px solid #7574ff;
+  border-bottom: 2px solid #b52a31;
   box-shadow: none;
   border-top: none;
   border-left: none;
@@ -4355,7 +4355,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #7574ff;
+  background-color: #b52a31;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -4883,7 +4883,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: inherit;
-  background-color: #7574ff;
+  background-color: #b52a31;
   color: white;
 }
 .nav-stacked > li {
@@ -7494,7 +7494,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: blink;
-  color: #7574ff;
+  color: #b52a31;
 }
 .navbar a:hover,
 .navbar a:focus,
@@ -9060,19 +9060,19 @@ a .icon-flip-vertical:before {
 .octicon-arrow-down:before { content: '\f03f'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¿ */
 .octicon-arrow-left:before { content: '\f040'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ */
 .octicon-arrow-right:before { content: '\f03e'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¾ */
-.octicon-arrow-small-down:before { content: '\f0a0'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â  */
+.octicon-arrow-small-down:before { content: '\f0a0'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â  */
 .octicon-arrow-small-left:before { content: '\f0a1'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¡ */
 .octicon-arrow-small-right:before { content: '\f071'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â± */
 .octicon-arrow-small-up:before { content: '\f09f'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€¦Ã‚Â¸ */
 .octicon-arrow-up:before { content: '\f03d'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â½ */
 .octicon-microscope:before,
-.octicon-beaker:before { content: '\f0dd'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â */
-.octicon-bell:before { content: '\f0de'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã‚Â¾ */
+.octicon-beaker:before { content: '\f0dd'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â */
+.octicon-bell:before { content: '\f0de'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã‚Â¾ */
 .octicon-book:before { content: '\f007'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ */
 .octicon-bookmark:before { content: '\f07b'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â» */
-.octicon-briefcase:before { content: '\f0d3'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ */
-.octicon-broadcast:before { content: '\f048'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¹Ã¢â‚¬Â  */
-.octicon-browser:before { content: '\f0c5'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ */
+.octicon-briefcase:before { content: '\f0d3'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ */
+.octicon-broadcast:before { content: '\f048'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¹Ã¢â‚¬Â  */
+.octicon-browser:before { content: '\f0c5'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ */
 .octicon-bug:before { content: '\f091'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ */
 .octicon-calendar:before { content: '\f068'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¨ */
 .octicon-check:before { content: '\f03a'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âº */
@@ -9082,9 +9082,9 @@ a .icon-flip-vertical:before {
 .octicon-chevron-right:before { content: '\f078'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¸ */
 .octicon-chevron-up:before { content: '\f0a2'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¢ */
 .octicon-circle-slash:before { content: '\f084'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ */
-.octicon-circuit-board:before { content: '\f0d6'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ */
+.octicon-circuit-board:before { content: '\f0d6'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ */
 .octicon-clippy:before { content: '\f035'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âµ */
-.octicon-clock:before { content: '\f046'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  */
+.octicon-clock:before { content: '\f046'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  */
 .octicon-cloud-download:before { content: '\f00b'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ */
 .octicon-cloud-upload:before { content: '\f00c'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬â„¢ */
 .octicon-code:before { content: '\f05f'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â¸ */
@@ -9093,11 +9093,11 @@ a .icon-flip-vertical:before {
 .octicon-comment:before { content: '\f02b'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â« */
 .octicon-comment-discussion:before { content: '\f04f'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â */
 .octicon-credit-card:before { content: '\f045'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ */
-.octicon-dash:before { content: '\f0ca'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã‚Â  */
+.octicon-dash:before { content: '\f0ca'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã‚Â  */
 .octicon-dashboard:before { content: '\f07d'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â½ */
 .octicon-database:before { content: '\f096'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ */
 .octicon-clone:before,
-.octicon-desktop-download:before { content: '\f0dc'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã¢â‚¬Å“ */
+.octicon-desktop-download:before { content: '\f0dc'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã¢â‚¬Å“ */
 .octicon-device-camera:before { content: '\f056'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ */
 .octicon-device-camera-video:before { content: '\f057'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â */
 .octicon-device-desktop:before { content: '\f27c'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â°Ãƒâ€šÃ‚Â¼ */
@@ -9122,28 +9122,28 @@ a .icon-flip-vertical:before {
 .octicon-file-symlink-file:before { content: '\f0b0'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â° */
 .octicon-file-text:before { content: '\f011'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ */
 .octicon-file-zip:before { content: '\f013'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ */
-.octicon-flame:before { content: '\f0d2'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ */
-.octicon-fold:before { content: '\f0cc'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã¢â‚¬â„¢ */
+.octicon-flame:before { content: '\f0d2'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ */
+.octicon-fold:before { content: '\f0cc'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã¢â‚¬â„¢ */
 .octicon-gear:before { content: '\f02f'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¯ */
 .octicon-gift:before { content: '\f042'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ */
 .octicon-gist:before { content: '\f00e'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â½ */
 .octicon-gist-secret:before { content: '\f08c'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€¦Ã¢â‚¬â„¢ */
 .octicon-git-branch-create:before,
 .octicon-git-branch-delete:before,
-.octicon-git-branch:before { content: '\f020'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â  */
+.octicon-git-branch:before { content: '\f020'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â  */
 .octicon-git-commit:before { content: '\f01f'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¸ */
 .octicon-git-compare:before { content: '\f0ac'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ */
 .octicon-git-merge:before { content: '\f023'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â£ */
 .octicon-git-pull-request-abandoned:before,
 .octicon-git-pull-request:before { content: '\f009'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° */
 .octicon-globe:before { content: '\f0b6'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¶ */
-.octicon-graph:before { content: '\f043'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€ Ã¢â‚¬â„¢ */
+.octicon-graph:before { content: '\f043'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€ Ã¢â‚¬â„¢ */
 .octicon-heart:before { content: '\2665'} /* ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢Ãƒâ€šÃ‚Â¥ */
 .octicon-history:before { content: '\f07e'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¾ */
 .octicon-home:before { content: '\f08d'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â */
 .octicon-horizontal-rule:before { content: '\f070'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â° */
 .octicon-hubot:before { content: '\f09d'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â */
-.octicon-inbox:before { content: '\f0cf'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â */
+.octicon-inbox:before { content: '\f0cf'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â */
 .octicon-info:before { content: '\f059'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ */
 .octicon-issue-closed:before { content: '\f028'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¨ */
 .octicon-issue-opened:before { content: '\f026'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ */
@@ -9151,13 +9151,13 @@ a .icon-flip-vertical:before {
 .octicon-jersey:before { content: '\f019'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ */
 .octicon-key:before { content: '\f049'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° */
 .octicon-keyboard:before { content: '\f00d'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â */
-.octicon-law:before { content: '\f0d8'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¹Ã…â€œ */
+.octicon-law:before { content: '\f0d8'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¹Ã…â€œ */
 .octicon-light-bulb:before { content: '\f000'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ */
 .octicon-link:before { content: '\f05c'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã¢â‚¬Å“ */
 .octicon-link-external:before { content: '\f07f'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¿ */
 .octicon-list-ordered:before { content: '\f062'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¢ */
 .octicon-list-unordered:before { content: '\f061'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¡ */
-.octicon-location:before { content: '\f060'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â  */
+.octicon-location:before { content: '\f060'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â  */
 .octicon-gist-private:before,
 .octicon-mirror-private:before,
 .octicon-git-fork-private:before,
@@ -9166,26 +9166,26 @@ a .icon-flip-vertical:before {
 .octicon-mail:before { content: '\f03b'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â» */
 .octicon-mail-read:before { content: '\f03c'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¼ */
 .octicon-mail-reply:before { content: '\f051'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ */
-.octicon-mark-github:before { content: '\f00a'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â  */
-.octicon-markdown:before { content: '\f0c9'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° */
+.octicon-mark-github:before { content: '\f00a'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â  */
+.octicon-markdown:before { content: '\f0c9'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° */
 .octicon-megaphone:before { content: '\f077'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â· */
 .octicon-mention:before { content: '\f0be'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¾ */
 .octicon-milestone:before { content: '\f075'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Âµ */
 .octicon-mirror-public:before,
 .octicon-mirror:before { content: '\f024'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¤ */
-.octicon-mortar-board:before { content: '\f0d7'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â */
+.octicon-mortar-board:before { content: '\f0d7'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â */
 .octicon-mute:before { content: '\f080'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ */
 .octicon-no-newline:before { content: '\f09c'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€¦Ã¢â‚¬Å“ */
-.octicon-octoface:before { content: '\f008'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã¢â‚¬Â  */
+.octicon-octoface:before { content: '\f008'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã¢â‚¬Â  */
 .octicon-organization:before { content: '\f037'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â· */
-.octicon-package:before { content: '\f0c4'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ */
-.octicon-paintcan:before { content: '\f0d1'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ */
+.octicon-package:before { content: '\f0c4'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ */
+.octicon-paintcan:before { content: '\f0d1'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ */
 .octicon-pencil:before { content: '\f058'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¹Ã…â€œ */
 .octicon-person-add:before,
 .octicon-person-follow:before,
 .octicon-person:before { content: '\f018'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œ */
 .octicon-pin:before { content: '\f041'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â */
-.octicon-plug:before { content: '\f0d4'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â */
+.octicon-plug:before { content: '\f0d4'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â */
 .octicon-repo-create:before,
 .octicon-gist-new:before,
 .octicon-file-directory-create:before,
@@ -9200,10 +9200,10 @@ a .icon-flip-vertical:before {
 .octicon-repo-delete:before,
 .octicon-repo:before { content: '\f001'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â */
 .octicon-repo-clone:before { content: '\f04c'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã¢â‚¬â„¢ */
-.octicon-repo-force-push:before { content: '\f04a'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â  */
+.octicon-repo-force-push:before { content: '\f04a'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â  */
 .octicon-gist-fork:before,
 .octicon-repo-forked:before { content: '\f002'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ */
-.octicon-repo-pull:before { content: '\f006'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  */
+.octicon-repo-pull:before { content: '\f006'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â  */
 .octicon-repo-push:before { content: '\f005'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ */
 .octicon-rocket:before { content: '\f033'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â³ */
 .octicon-rss:before { content: '\f034'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â´ */
@@ -9214,7 +9214,7 @@ a .icon-flip-vertical:before {
 .octicon-search:before {content: '\f02e';color: white;} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â® */
 .octicon-server:before { content: '\f097'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â */
 .octicon-settings:before { content: '\f07c'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¼ */
-.octicon-shield:before { content: '\f0e1'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â¡ */
+.octicon-shield:before { content: '\f0e1'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â¡ */
 .octicon-log-in:before,
 .octicon-sign-in:before { content: '\f036'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¶ */
 .octicon-log-out:before,
@@ -9229,13 +9229,13 @@ a .icon-flip-vertical:before {
 .octicon-tag-remove:before,
 .octicon-tag-add:before,
 .octicon-tag:before { content: '\f015'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ */
-.octicon-telescope:before { content: '\f088'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€¹Ã¢â‚¬Â  */
-.octicon-terminal:before { content: '\f0c8'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¹Ã¢â‚¬Â  */
+.octicon-telescope:before { content: '\f088'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€¹Ã¢â‚¬Â  */
+.octicon-terminal:before { content: '\f0c8'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¹Ã¢â‚¬Â  */
 .octicon-three-bars:before { content: '\f05e'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â¾ */
-.octicon-thumbsdown:before { content: '\f0db'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº */
-.octicon-thumbsup:before { content: '\f0da'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã‚Â¡ */
+.octicon-thumbsdown:before { content: '\f0db'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº */
+.octicon-thumbsup:before { content: '\f0da'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¦Ã‚Â¡ */
 .octicon-tools:before { content: '\f031'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â± */
-.octicon-trashcan:before { content: '\f0d0'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â */
+.octicon-trashcan:before { content: '\f0d0'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â */
 .octicon-triangle-down:before { content: '\f05b'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº */
 .octicon-triangle-left:before { content: '\f044'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ */
 .octicon-triangle-right:before { content: '\f05a'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€¦Ã‚Â¡ */
@@ -9243,7 +9243,7 @@ a .icon-flip-vertical:before {
 .octicon-unfold:before { content: '\f039'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ */
 .octicon-unmute:before { content: '\f0ba'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Âº */
 .octicon-versions:before { content: '\f064'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¤ */
-.octicon-watch:before { content: '\f0e0'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â  */
+.octicon-watch:before { content: '\f0e0'} /* ÃƒÆ’Ã‚Â¯Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â  */
 .octicon-remove-close:before,
 .octicon-x:before { content: '\f081'} /* ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â */
 .octicon-zap:before { content: '\26A1'} /* ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â¡Ãƒâ€šÃ‚Â¡ */
@@ -9818,7 +9818,7 @@ fieldset[disabled] .form-control {
 .ui-autocomplete .ui-state-focus,
 .ui-datepicker .ui-state-hover,
 .ui-autocomplete .ui-state-hover {
-  background-color: #7574ff !important;
+  background-color: #b52a31 !important;
   color: #ffffff !important;
   text-shadow: none !important;
 }
@@ -10500,7 +10500,7 @@ body[data-route^="Module"] .main-menu .form-sidebar {
 .layout-side-section .sidebar-menu > li > a:focus,
 .layout-side-section .sidebar-menu > li > a:active {
   text-decoration: blink;
-  color: #7574ff;
+  color: #b52a31;
 }
 .sidebar-menu .badge {
   position: absolute;
@@ -10825,7 +10825,7 @@ a.close:focus {
 }
 .editable-title .title-text:hover {
   background-color: #eeeeee;
-  color: #7574ff;
+  color: #b52a31;
 }
 .page-actions {
   padding-top: 17px;
@@ -13292,5 +13292,4 @@ th.fc-widget-header {
     height: auto !important;
   }
 }
-
 
